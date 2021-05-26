@@ -1,0 +1,25 @@
+{
+  "name": "react-node-mongodb-crud",
+  "version": "1.0.0",
+  "description": "In this module, we’re gonna build a MERN stack (React.js + Node.js + Express + MongoDB) CRUD Application example. The back-end server uses Node.js + Express for REST APIs, front-end side is a React client with React Router, Axios & Bootstrap.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.js"
+  },
+   "author": {
+    "name": "Harsh Kagathara",
+    "email": "harshkagu29@gmail.com",
+    "url": "https://infusion-infotech.com/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
